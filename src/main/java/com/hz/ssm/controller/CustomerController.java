@@ -38,6 +38,7 @@ public class CustomerController {
 
         PageUtils<Customer> pageBean =  customerService.findCustInfoByPage(indexPage,name);
 
+        System.out.println("=====");
         return pageBean;
     }
     /**
